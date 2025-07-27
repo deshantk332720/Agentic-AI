@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function AIDifferenceTable() {
     return (
         <div
@@ -82,30 +84,30 @@ export default function AIDifferenceTable() {
 <div className="flex gap-10 item-center justify-center mt-10 text-lg">
 {/* ------------------------------------------------------- */}
 <div className="text-center justify-center flex mt-8">
-  <a
+  <Link
     href="/WorldofAgenticAI"
     className="bg-gradient-to-br from-blue-700 via-slate-800 to-black text-white px-6 py-2 rounded-full hover:brightness-110 transition-all duration-300 shadow-md border border-blue-600"
   >
     Agentic AI With OpenAI SDK
-  </a>
+  </Link>
 </div>
 {/* --------------------------------------------------------- */}
 <div className="text-center justify-center flex mt-8">
-  <a
+  <Link
     href="/WorldofAgenticAI"
     className="bg-gradient-to-br from-blue-700 via-slate-800 to-black text-white px-6 py-2 rounded-full hover:brightness-110 transition-all duration-300 shadow-md border border-blue-600"
   >
   Agentic AI With CrewAI
-  </a>
+  </Link>
 </div>
 {/* --------------------------------------------------------- */}
 <div className="text-center justify-center flex mt-8">
-  <a
+  <Link
     href="/WorldofAgenticAI"
     className="bg-gradient-to-br from-blue-700 via-slate-800 to-black text-white px-6 py-2 rounded-full hover:brightness-110 transition-all duration-300 shadow-md border border-blue-600"
   >
     Agentic AI With LangChain
-  </a>
+  </Link>
 </div>
 {/* ---------------------------------------------------------- */}
  
