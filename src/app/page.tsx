@@ -58,7 +58,7 @@ export default function Home() {
         </nav>
 <section>
         {/* Hero Section */}
-        <main className="flex flex-col items-center justify-center text-center px-4 py-32">
+        <main className="flex flex-col items-center justify-center text-center px-4 py-32 ">
           {/* Typewriter Effect */}
           
           <h2 className="text-4xl font-extrabold  ">Welcome To Learn About Agentic AI</h2>
@@ -69,7 +69,7 @@ export default function Home() {
           <p className="text-lg max-w-xl text-gray-300 font-bold">
           Learn How AI Agents Work and Create Your Own
           </p>
-          <div className="text-center justify-center flex mt-8">
+          <div className="text-center justify-center flex mt-2">
   <Link
     href="/Basics"
     className="bg-gradient-to-br from-blue-700 via-slate-800 to-black text-white px-6 py-2 rounded-full hover:brightness-110 transition-all duration-300 shadow-md border border-blue-600"
@@ -81,7 +81,7 @@ export default function Home() {
         </main>
         </section>
      <section>
-      <div className="text-1xl sm:text-3xl  font-mono mb-6 space-y-2">
+      <div className="text-1xl sm:text-3xl  font-serif mb-2 space-y-2 ">
             {displayedLines.map((line, idx) => (
               <div key={idx}>{line}</div>
             ))}
