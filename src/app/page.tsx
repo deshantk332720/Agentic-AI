@@ -42,22 +42,22 @@ export default function Home() {
 
   return (
     <div
-      className="min-h-screen w-full bg-cover bg-center text-white flex flex-col"
+      className="min-h-screen w-full bg-cover bg-center text-white flex flex-col h-full"
       style={{ backgroundImage: "url('/54.png')" }}
     >
       {/* Navbar */}
-      <nav className="w-full flex flex-col sm:flex-col md:flex-row justify-between items-center px-6 py-4">
-        <h1 className="text-2xl font-bold">Agentic AI</h1>
-        <div className="space-x-0 sm:space-x-0 md:space-x-4 flex flex-col sm:flex-col md:flex-row text-lg font-bold font-serif mt-4 md:mt-0 space-y-2 md:space-y-0">
-          <Link href="/" className="hover:text-sky-400">Home</Link>
-          <Link href="/About" className="hover:text-sky-400">About</Link>
-          <Link href="/WorldofAgenticAI" className="hover:text-sky-400">Core Tools</Link>
-          <Link href="/WorldofAgenticAI" className="hover:text-sky-400">Learn</Link>
-        </div>
-      </nav>
+      <nav className="w-full px-6 py-4 flex justify-between items-center">
+          <h1 className="text-2xl font-bold">Agentic AI</h1>
+          <div className="space-x-4 text-lg sm:block hidden md:flex font-bold font-serif ">
+            <Link href="/" className="hover:text-sky-400">Home</Link>
+            <Link href="/About" className="hover:text-sky-400">About</Link>
+            <Link href="/WorldofAgenticAI" className="hover:text-sky-400">Core Tools</Link>
+            <Link href="/WorldofAgenticAI" className="hover:text-sky-400">Learn</Link>
+          </div>
+        </nav>
 
       {/* Hero Section */}
-      <main className="flex flex-col items-center justify-center text-center px-4 pt-16 pb-8 sm:pb-16 md:pb-32">
+      <main className="flex flex-col items-center justify-center text-center px-4 pt-16 pb-8 sm:pb-16 md:pb-32 mt-7 sm:mt-2">
         <h2 className="text-3xl sm:text-4xl font-extrabold">Welcome To Learn About Agentic AI</h2>
 
         <p className="text-base sm:text-lg max-w-xl text-gray-300 font-bold mt-4">
