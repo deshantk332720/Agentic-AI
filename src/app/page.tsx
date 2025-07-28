@@ -50,7 +50,7 @@ export default function Home() {
           <h1 className="text-2xl font-bold">Agentic AI</h1>
           <div className="space-x-4 text-lg sm:block hidden md:flex font-bold font-serif ">
             <Link href="/" className="hover:text-sky-400">Home</Link>
-            <Link href="/About" className="hover:text-sky-400">About</Link>
+            <Link href="/Documentation" className="hover:text-sky-400">Documentation</Link>
             <Link href="/WorldofAgenticAI" className="hover:text-sky-400">Core Tools</Link>
             <Link href="/WorldofAgenticAI" className="hover:text-sky-400">Learn</Link>
           </div>
@@ -69,12 +69,18 @@ export default function Home() {
         </p>
 
         {/* Get Started Button with Responsive Spacing */}
-        <div className="text-center justify-center flex mt-4 sm:mt-6 md:mt-10">
+        <div className="text-center justify-center flex mt-4 sm:mt-6 md:mt-10 gap-8 font-bold font-serif text-lg">
           <Link
             href="/Basics"
             className="bg-gradient-to-br from-blue-700 via-slate-800 to-black text-white px-6 py-2 rounded-full hover:brightness-110 transition-all duration-300 shadow-md border border-blue-600"
           >
             Get Started
+          </Link>
+          <Link
+            href="/Documentation"
+            className="bg-gradient-to-br from-blue-700 via-slate-800 to-black text-white px-6 py-2 rounded-full hover:brightness-110 transition-all duration-300 shadow-md border border-blue-600"
+          >
+          Documentation
           </Link>
         </div>
       </main>
