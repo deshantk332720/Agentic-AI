@@ -76,12 +76,7 @@ export default function Home() {
           >
             Get Started
           </Link>
-          <Link
-            href="/Documentation"
-            className="bg-gradient-to-br from-blue-700 via-slate-800 to-black text-white px-6 py-2 rounded-full hover:brightness-110 transition-all duration-300 shadow-md border border-blue-600"
-          >
-          Documentation
-          </Link>
+         
         </div>
       </main>
 <br />
