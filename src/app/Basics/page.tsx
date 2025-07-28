@@ -48,6 +48,18 @@ export default function Home() {
       className="min-h-screen bg-cover bg-center text-white"
       style={{ backgroundImage: "url('/30.png')" }} // use the new bg
     >
+
+<nav className="w-full px-6 py-4 flex justify-between items-center">
+          <h1 className="text-2xl font-bold">Agentic AI</h1>
+          <div className="space-x-4 text-lg sm:block hidden md:flex font-bold font-serif ">
+            <Link href="/" className="hover:text-sky-400">Home</Link>
+            <Link href="/About" className="hover:text-sky-400">About</Link>
+            <Link href="/WorldofAgenticAI" className="hover:text-sky-400">Core Tools</Link>
+            <Link href="/WorldofAgenticAI" className="hover:text-sky-400">Learn</Link>
+          </div>
+        </nav>
+
+
       <div className="min-h-screen px-4 py-20  bg-opacity-30">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
