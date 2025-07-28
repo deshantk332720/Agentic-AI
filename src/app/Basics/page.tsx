@@ -50,14 +50,28 @@ export default function Home() {
     >
 
 <nav className="w-full px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Agentic AI</h1>
-          <div className="space-x-4 text-lg sm:block hidden md:flex font-bold font-serif ">
-            <Link href="/" className="hover:text-sky-400">Home</Link>
-            <Link href="/Documentation" className="hover:text-sky-400">Documentation</Link>
-            <Link href="/WorldofAgenticAI" className="hover:text-sky-400">Core Tools</Link>
-            <Link href="/WorldofAgenticAI" className="hover:text-sky-400">Learn</Link>
-          </div>
-        </nav>
+  <h1 className="text-2xl font-bold">Agentic AI</h1>
+
+  <div className="space-x-4 text-lg font-bold font-serif flex flex-wrap">
+    {/* Always visible */}
+    <Link href="/" className="hover:text-sky-400">Home</Link>
+    <Link href="/Documentation" className="hover:text-sky-400">Documentation</Link>
+
+    {/* Hidden on small screens, visible on md and up */}
+    <Link
+      href="/WorldofAgenticAI"
+      className="hover:text-sky-400 hidden md:inline"
+    >
+      Core Tools
+    </Link>
+    <Link
+      href="/WorldofAgenticAI"
+      className="hover:text-sky-400 hidden md:inline"
+    >
+      Learn
+    </Link>
+  </div>
+</nav>
 
 
 
@@ -80,13 +94,22 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="text-center justify-center flex mt-8">
+        <div className="text-center justify-center flex mt-8 gap-8 font-bold">
   <Link
     href="/WorldofAgenticAI"
     className="bg-gradient-to-br from-blue-700 via-slate-800 to-black text-white px-6 py-2 rounded-full hover:brightness-110 transition-all duration-300 shadow-md border border-blue-600"
   >
     More...
   </Link>
+
+  <Link
+    href="/Documentation"
+    className="bg-gradient-to-br from-blue-700 via-slate-800 to-black text-white px-6 py-2 rounded-full hover:brightness-110 transition-all duration-300 shadow-md border border-blue-600"
+  >
+   Documentation
+  </Link>
+
+
 </div>
 
 

@@ -10,15 +10,30 @@ export default function AgenticAIDocumentation() {
         
               {/* Page content over background */}
               <div className="relative z-10">
-                <nav className="w-full px-6 py-4 flex justify-between items-center">
-                  <h1 className="text-2xl font-bold">Agentic AI</h1>
-                  <div className="space-x-4 text-lg sm:block hidden md:flex font-bold font-serif">
-                    <Link href="/" className="hover:text-sky-400">Home</Link>
-                    <Link href="/Documentation" className="hover:text-sky-400">Documentation</Link>
-                    <Link href="/WorldofAgenticAI" className="hover:text-sky-400">Core Tools</Link>
-                    <Link href="/WorldofAgenticAI" className="hover:text-sky-400">Learn</Link>
-                  </div>
-                </nav>
+              <nav className="w-full px-6 py-4 flex justify-between items-center">
+  <h1 className="text-2xl font-bold">Agentic AI</h1>
+
+  <div className="space-x-4 text-lg font-bold font-serif flex flex-wrap">
+    {/* Always visible */}
+    <Link href="/" className="hover:text-sky-400">Home</Link>
+    <Link href="/Documentation" className="hover:text-sky-400">Documentation</Link>
+
+    {/* Hidden on small screens, visible on md and up */}
+    <Link
+      href="/WorldofAgenticAI"
+      className="hover:text-sky-400 hidden md:inline"
+    >
+      Core Tools
+    </Link>
+    <Link
+      href="/WorldofAgenticAI"
+      className="hover:text-sky-400 hidden md:inline"
+    >
+      Learn
+    </Link>
+  </div>
+</nav>
+
         
                 <div className="min-h-screen px-6 py-12">
                   <div className="max-w-5xl mx-auto">
