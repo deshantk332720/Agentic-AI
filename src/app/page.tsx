@@ -11,7 +11,7 @@ export default function Home() {
     'What problems it solves?',
     'Where is Agentic AI used in real life?',
     'Can Agentic AI work without human input?',
-    'How can I build an Agentic AI?',
+    'How can I build an Agents?',
     'What is needed to start building Agentic AI?',
     'What tools does Agentic AI use?',
   ];
@@ -78,7 +78,7 @@ export default function Home() {
           </Link>
         </div>
       </main>
-
+<br />
       {/* Question Lines Section */}
       <section className="px-4 pb-10 sm:pb-16 md:pb-20">
         <div className="text-lg sm:text-2xl font-serif space-y-2 ">
