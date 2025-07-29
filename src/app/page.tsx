@@ -41,10 +41,14 @@ export default function Home() {
   }, [currentText, currentLineIndex]);
 
   return (
-    <div
-      className="min-h-screen w-full bg-cover bg-center text-white flex flex-col"
-      style={{ backgroundImage: "url('/54.png')" }}
-    >
+<div
+  className="min-h-screen w-full bg-cover bg-center bg-no-repeat text-white flex flex-col"
+  style={{
+    backgroundImage: "url('/54.png')",
+    backgroundColor: "#000", // Optional for testing
+  }}
+>
+
       {/* Navbar */}
       <nav className="w-full px-6 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold">Agentic AI</h1>
