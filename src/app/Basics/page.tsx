@@ -30,7 +30,7 @@ export default function Home() {
       answer: "Yes — once given a goal, Agentic AI can make decisions, use tools, and complete tasks on its own.",
     },
     {
-      question: "How can I build an Agentic AI?",
+      question: "How can I build an Agents?",
       answer: "Use OpenAI SDK + LangChain or CrewAI, define tools, and give it a goal.",
     },
     {
