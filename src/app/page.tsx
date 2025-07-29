@@ -42,7 +42,7 @@ export default function Home() {
 
   return (
     <div
-      className="min-h-screen w-full bg-cover bg-center text-white flex flex-col h-full"
+      className="min-h-screen w-full bg-cover bg-center text-white flex flex-col"
       style={{ backgroundImage: "url('/54.png')" }}
     >
       {/* Navbar */}
