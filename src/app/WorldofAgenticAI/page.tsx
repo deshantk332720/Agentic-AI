@@ -63,7 +63,7 @@ export default function AIDifferenceTable() {
       {/* Table Section */}
       <div className="px-4 py-10 text-white min-h-screen">
         <h2 className="text-3xl font-bold mb-6 text-center text-white mt-6">
-          Generative AI vs Agentic AI
+           Agentic AI vs Generative AI
         </h2>
         <div className="overflow-x-auto">
         <section className="mb-12 mt-6">
@@ -131,7 +131,7 @@ export default function AIDifferenceTable() {
 
           <div className="mt-20 px-4 md:px-16 py-10  bg-opacity-80 rounded-xl">
       <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-center font-serif text-white">
-        🧠 AI Revolution Timeline
+        🧠 AI Revolution 
       </h2>
 
       <div className="space-y-8 text-white">
