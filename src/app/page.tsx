@@ -86,7 +86,7 @@ export default function Home() {
 <br />
       {/* Question Lines Section */}
       <section className="px-4 pb-10 sm:pb-16 md:pb-20">
-        <div className="text-lg sm:text-2xl font-serif space-y-2 ">
+        <div className="text-5xl sm:text-2xl font-serif space-y-2 ">
           {displayedLines.map((line, idx) => (
             <div key={idx}>{line}</div>
           ))}
