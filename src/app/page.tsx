@@ -51,7 +51,7 @@ export default function Home() {
 
       {/* Navbar */}
       <nav className="w-full px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Agentic AI</h1>
+          <h1 className="text-2xl font-bold font-serif">Agentic AI</h1>
           <div className="space-x-4 text-lg sm:block hidden md:flex font-bold font-serif ">
             <Link href="/" className="hover:text-sky-400">Home</Link>
             <Link href="/Documentation" className="hover:text-sky-400">Documentation</Link>

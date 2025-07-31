@@ -49,7 +49,7 @@ export default function AIDifferenceTable() {
       style={{ backgroundImage: "url('/30.png')" }}
     >
        <nav className="w-full px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Agentic AI</h1>
+          <h1 className="text-2xl font-bold font-serif">Agentic AI</h1>
           <div className="space-x-4 text-lg sm:block hidden md:flex font-bold font-serif ">
             <Link href="/" className="hover:text-sky-400">Home</Link>
             <Link href="/Documentation" className="hover:text-sky-400">Documentation</Link>
@@ -106,21 +106,21 @@ export default function AIDifferenceTable() {
           {/* Action Buttons */}
           <div className="flex flex-col md:flex-row gap-10 items-center justify-center mt-10 text-lg">
             <Link
-              href="/WorldofAgenticAI"
+              href="/OpenaiSDK"
               className="bg-gradient-to-br from-blue-700 via-slate-800 to-black text-white px-6 py-2 rounded-full hover:brightness-110 transition-all duration-300 shadow-md border border-blue-600"
             >
               Agentic AI With OpenAI SDK
             </Link>
 
             <Link
-              href="/WorldofAgenticAI"
+              href="/CrewAI"
               className="bg-gradient-to-br from-blue-700 via-slate-800 to-black text-white px-6 py-2 rounded-full hover:brightness-110 transition-all duration-300 shadow-md border border-blue-600"
             >
               Agentic AI With CrewAI
             </Link>
 
             <Link
-              href="/WorldofAgenticAI"
+              href="/Langchain"
               className="bg-gradient-to-br from-blue-700 via-slate-800 to-black text-white px-6 py-2 rounded-full hover:brightness-110 transition-all duration-300 shadow-md border border-blue-600"
             >
               Agentic AI With LangChain
