@@ -104,7 +104,7 @@ export default function AIDifferenceTable() {
           </section>
 
           {/* Action Buttons */}
-          <div className="flex flex-col md:flex-row gap-10 items-center justify-center mt-10 text-lg">
+          <div className="flex flex-col md:flex-row gap-10 items-center justify-center mt-10 text-xl">
             <Link
               href="/OpenaiSDK"
               className="bg-gradient-to-br from-blue-700 via-slate-800 to-black text-white px-6 py-2 rounded-full hover:brightness-110 transition-all duration-300 shadow-md border border-blue-600"
